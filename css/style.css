@@ -32,9 +32,7 @@ nav li{
 
 nav a{
     text-transform: uppercase;
-    font-family:kefa;
     color: #ffffff;
-    
     font-size: 16px;
     text-decoration: none;
 }
@@ -54,7 +52,7 @@ nav a:hover{
     vertical-align: top;
     background-color:#202020 ;
     text-align: center;
-    padding: 5px 2% 5px 2%;
+    padding: 5px;
     margin-top: -5px;
     color: #fff;
 }
@@ -86,19 +84,17 @@ nav a:hover{
     width: 90%;
 }
 
-.productos img:hover{
-    width: 100%;
-}
-
 .banner2 img{
     width: 100%;
 }
+
 footer{
     background-color: #000000;
     color: #fff;
     margin-top: -20px;
     
 }
+
 footer section{
     display: inline-block;
     width:30%;
@@ -111,6 +107,7 @@ footer li{
     list-style: none;
     margin-bottom: 1%;
 }
+
 footer a{
     text-decoration: none;
     color: #fff;
@@ -120,6 +117,7 @@ footer h2{
     text-transform:uppercase ;
     font-size: 16px;
 }
+
 footer ul{
         padding: 0;
      }
@@ -129,11 +127,7 @@ footer ul{
     text-align: center;
 }
 
-.responsive {
-    padding: 20px;
-    background: #e6f0ff;
-    text-align: center;
-}
+
 @media (max-width: 600px) {
     header img{
         width: 50%;
