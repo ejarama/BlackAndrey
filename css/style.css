@@ -1,9 +1,7 @@
 body{
     font-family:kefa;
     margin: 0;
-}
-html, body {
-    overflow-x: hidden;
+    
 }
 
 header {
@@ -132,6 +130,7 @@ footer ul{
 
 
 @media (max-width: 600px) {
+    
     header img{
         width: 50%;
     }
@@ -152,7 +151,7 @@ footer ul{
         display: block;
         text-align: left;
         margin: 5%;
-        width:100%;
+        width:90%;
        
      }
      
