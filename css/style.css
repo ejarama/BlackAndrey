@@ -1,11 +1,14 @@
 body{
-    overflow-x: hidden;
     font-family:kefa;
     margin: 0;
+}
+html, body {
+    overflow-x: hidden;
 }
 
 header {
     position: fixed;
+    width: 100%; 
     background: #161616; 
     color: #fff;
     margin: 0;
@@ -150,7 +153,7 @@ footer ul{
         text-align: left;
         margin: 5%;
         width:100%;
-        box-sizing: border-box;
+       
      }
      
      
